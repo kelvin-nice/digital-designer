@@ -1,0 +1,89 @@
+.ache-tres{
+    font-size: 40px;
+    padding: 4px 0;
+    text-align: left;
+    
+}
+
+.linea-debajo2{
+    width: 70px;
+    height: 7px;
+    align-items: left;
+    margin-bottom: 20px;
+}
+.texto-linea-debajo2{
+    text-align: left;
+    font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 17px;
+    color: rgb(200, 200, 200);
+    text-align: left;
+}
+
+.imagen-siempre{
+    width: 500px;
+    display: flex;
+    margin-right: 40px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.imagen-siempre:hover{
+    transform: scale(1.03);
+}
+
+
+/*Contenedor */
+.contenedor2{
+    width: 95%;
+    max-width: 1100px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+@media (max-width: 1020px){
+    .contenedor2{
+        display: block;
+    }
+    .texto-linea-debajo2{
+        
+        font-size: 1.1rem;
+        line-height: 25px;
+        margin-bottom: 13px;
+        color: rgb(41, 41, 41);
+        text-align: justify;
+    }
+    
+    .imagen-siempre{
+        width: 100%;
+        display: flex;
+        margin-right: 40px;
+    }
+}
+/* banner*/
+.banners{
+    width: 100%;
+    height: auto;
+}
+.banners img{
+    width: 100%;
+}
+
+/* boton */
+.btn-portafolio{
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+    color: rgb(11, 11, 11);
+    border: 0px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+.btn-portafolio:hover{
+    background-color: rgb(255, 255, 255);
+}
