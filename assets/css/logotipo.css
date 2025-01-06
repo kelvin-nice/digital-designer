@@ -1,4 +1,7 @@
 /* imagen y texto sacado de nostros*/
+html {
+    scroll-behavior: smooth;
+  }
 .logos{
     width: 100%;
     display: flex;
